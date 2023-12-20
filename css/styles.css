@@ -12,6 +12,7 @@ body {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    outline: 1px solid red;
 }
 
 .header {
@@ -57,4 +58,66 @@ body {
 
 .header__nav-link:hover, .header__nav-link:focus {
     color: #F38181;
+}
+
+
+.services__text {
+    color: #333;
+font-family: "Kaushan Script";
+font-size: 24px;
+font-weight: 400;
+margin-bottom: 20px;
+}
+
+.services {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.services .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.services__title {
+    color: #333;
+font-size: 30px;
+font-weight: 700;
+font-variant: all-small-caps;
+}
+.works {
+}
+.works__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.works__item {
+    flex-basis: calc((100% - 3 * 60) / 3);
+}
+.works__subtitle {
+}
+.works__text {
+}
+.team {
+}
+.team__text {
+}
+.team__title {
+}
+.team__subtext {
+}
+.team-members {
+}
+.team-members__list {
+}
+.team-members__item {
+}
+.team-members__img {
+}
+.team-members__name {
+}
+.team-members__position {
 }
